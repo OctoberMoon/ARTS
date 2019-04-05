@@ -21,7 +21,7 @@ class Solution {
 3. **Tips**
     Yii2 使用图片上传
     Model 定义：
-        ![62a20bfaa9212e3f5c94b6219d52cce4.png](https://github.com/wujianan/ARTS/tree/master/week_1/model.png)
+        ![model.png](https://github.com/wujianan/ARTS/blob/master/week_1/model.png)
         
     控制器使用：
    
