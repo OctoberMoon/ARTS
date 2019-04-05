@@ -1,5 +1,7 @@
-1. 两数之和
-   class Solution {
+1. **两数之和**
+   
+```
+class Solution {
        function twoSum($nums,$target) {
            foreach($nums as $k=>$v){
                $mu = $target-$v;
@@ -12,20 +14,24 @@
            }
        }
    } 
-2. Review
-    Laravel 翻译：https://learnku.com/laravel/t/26375
+```
+2. **Review**
+    Laravel 翻译：[https://learnku.com/laravel/t/26375](https://learnku.com/laravel/t/26375)
     在 Laravel 项目中，我们收到很多希望能够为构建多语言 Web 应用提供更好支持的请求。
-3. Tips
+3. **Tips**
     Yii2 使用图片上传
     Model 定义：
+        ![62a20bfaa9212e3f5c94b6219d52cce4.png](evernotecid://2D3ECD61-9BE7-4422-B7DD-05A6FC560EE0/appyinxiangcom/23972896/ENResource/p1)
         
     控制器使用：
    
-    private function upload()
-        {
-            if ($_FILES['Product']['error']['cover'] > 0) {
+    
+```
+private function upload()
+{
+   if ($_FILES['Product']['error']['cover'] > 0) {
                 return false;
-            }
+   }
             $zone = 'south_china';
             $qiniu = new Qiniu(Product::AK,Product::SK,Product::DOMAIN, Product::BUCKET,$zone);
             $key = uniqid();
@@ -43,11 +49,13 @@
             $pics = json_encode($pics);
             return compact('cover','pics');
         }    
+```
 4. Share
     Docker 宿主机连接Docker数据库
-    docker-compose exec mysql bash
-    mysql -uroot -proot
-    ALTER USER ‘root’@’%’ IDENTIFIED WITH mysql_native_password BY ‘root’;
+
+*     docker-compose exec mysql bash
+*     mysql -uroot -proot
+*     ALTER USER ‘root’@’%’ IDENTIFIED WITH mysql_native_password BY ‘root’;
 
 
 
