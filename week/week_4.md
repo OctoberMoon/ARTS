@@ -42,6 +42,12 @@ $form->saved(function (Form $form) {
             return redirect('/admin/user');  更改跳转链接
         });
 }
+//laravel-admin 加js 获取当前提交值 赋值给关联表的值
+$form->hidden('ConfigYecsStaticRatio.level')->value();
+Admin::script('
+            var level = $("#level").val();  //获取当前提交值
+            $(".ConfigDynamicRelease_level_").val(level); 赋值给关联表
+        ');
 ```
 4. Share
    How Huawei can beat Apple and Samsung’s ecosystem. [原文](https://hackernoon.com/how-huawei-can-beat-apples-ecosystem-7c3218bd5739)
