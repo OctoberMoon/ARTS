@@ -29,9 +29,9 @@
     How To Use SSH to Connect to a Remote Server in Ubuntu
 . [原文](https://www.digitalocean.com/community/tutorials/how-to-use-ssh-to-connect-to-a-remote-server-in-ubuntu)
 3. Tips
-```
-总结下高并发 相关的知识点 [地址](https://wujianan.github.io/2019/05/28/1/)
+[总结下高并发 相关的知识点](https://wujianan.github.io/2019/05/28/1/)
 
-```
 4. Share
 [Centos防火墙操作](https://wujianan.github.io/2019/05/29/1/)
+
+   
